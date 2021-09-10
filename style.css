@@ -1,0 +1,236 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-image: url(./Images/texture-1909992_1920.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-size: 16px;
+  
+  font-family: "Otomanopee One", sans-serif;
+  
+}
+.header-brand {
+  padding: 0;
+  margin: 0;
+}
+.header {
+  background-color: rgba(197, 194, 194, 0.4);
+  text-align: center;
+  font-size: 6rem;
+  margin: 28vh 0;
+}
+
+.navbar {
+  background-color: rgba(197, 194, 194, 0.4);
+  font-size: 2rem;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  padding-top: 0.5vw;
+  padding-bottom: 0.5vw;
+  z-index: 2;
+}
+.navbar a {
+  text-decoration: none;
+  color: black;
+}
+.navbar ul {
+  padding: 0;
+}
+.navbar li {
+  list-style: none;
+}
+
+.navbar-items {
+  display: inline;
+  margin: 30px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+/* start of CATEGORY section  */
+.category {
+  background-color: white;
+  padding: 10vh 0;
+  z-index: -1;
+
+  width: 100%;
+  border: solid black 2px;
+  position: relative;
+}
+.category-row {
+  display: table;
+  table-layout: fixed;
+  width: 80%;
+  text-align: center;
+  justify-content: center;
+  border-spacing: 10px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.category-items h2 {
+  position: relative;
+  color: black;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.category-items {
+  position: relative;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 10px;
+  height: 20vh;
+  padding: auto;
+}
+#red {
+  background-color: rgb(228, 57, 18);
+}
+#blue {
+  background-color: rgb(7, 95, 147);
+}
+#orange {
+  background-color: rgb(244, 140, 13);
+}
+.category-content h3 {
+  text-align: center;
+  font-size: 2rem;
+}
+.category-content-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 8vh;
+  margin-right: 8vh;
+  justify-content: center;
+}
+.category-content-box {
+  font-size: 1.2rem;
+  margin: 0 2vw;
+  flex: 40%;
+  padding: 0 1vw;
+  border-top: dotted rgba(7, 7, 7, 0.5);
+}
+
+/* start of main */
+.main-wrapper {
+  background-color: rgba(197, 194, 194, 0.8);
+  margin: 20vh 20vw;
+  padding-left: 2vw;
+  padding-right: 2vw;
+  padding-bottom: 7vh;
+  padding-top: 3vh;
+  border-radius: 20px;
+}
+.main-head {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.main-text {
+  font-size: 1.1rem;
+  text-justify: left;
+}
+.main-btn {
+  position: relative;
+  bottom: 20px;
+
+  float: right;
+
+  z-index: 1;
+  text-decoration: none;
+  color: black;
+  background-color: rgb(244, 140, 13);
+  border: 1px solid rgba(244, 140, 13, 0.213);
+  text-align: center;
+  border-radius: 0.25rem;
+  padding: 10px;
+}
+.main-btn a {
+  text-decoration: none;
+  color: black;
+  
+}
+
+.main-btn:hover {
+  background-color: rgba(244, 67, 13, 0.8);
+  cursor: pointer;
+}
+
+/* RESPONSIVE  */
+
+@media only screen and (max-width: 980px) and (min-width: 781px)
+{
+   .header {
+    font-size: 4rem;
+
+  } 
+}
+@media (max-width: 780px) {
+  .header {
+    font-size: 2.2rem;
+    font-weight: bold;
+    padding: 5vh 0;
+    margin: 20vh 0;
+  }
+  .navbar {
+    font-size: 1.2rem;
+    text-align: center;
+
+    padding-top: 0.5vw;
+    padding-bottom: 0.5vw;
+  }
+  .category-row h2
+{
+  font-size: 1.4rem;
+}
+  .main-wrapper{
+    margin: 5vw;
+  }
+  .main {
+    margin: 20vh 8vw;
+    padding: 4vw;
+    border-radius: 20px;
+    font-size: 1.2rem;
+  }
+}
+
+/* footer */
+
+.footer {
+  background: white;
+  padding: 6vh 3vw;
+  margin-bottom: 5vh;
+  border: solid black 2px;
+}
+.footer-wrapper {
+  display: flex;
+  width: 100%;
+  text-align: center;
+  
+  justify-content: center;
+  border-spacing: 200px;
+}
+.footer-items {
+  
+  
+  font-size: 1.2rem;
+  margin: 0 2vw;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  width: 30rem;
+  padding: 0;
+  
+}
+
+#contactus {
+  border: dotted rgba(7, 7, 7, 0.5);
+  border-radius: 20px;
+}
+.footer-items img { 
+  border: dotted rgba(7, 7, 7, 0.5);
+  border-radius: 20px;
+}
